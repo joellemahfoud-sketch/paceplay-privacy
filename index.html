@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: linear-gradient(135deg, #1a2332 0%, #0f1419 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+            padding: 40px;
+        }
+        h1 {
+            color: #1a73e8;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #0d652d;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .links {
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #1a73e8 0%, #0d652d 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(26, 115, 232, 0.4);
+            background: linear-gradient(135deg, #1557b0 0%, #0a4f23 100%);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .feature {
+            padding: 20px;
+            background: #f7f9fc;
+            border-radius: 8px;
+            border-left: 3px solid #1a73e8;
+        }
+        .feature h3 {
+            color: #0d652d;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 Music Player App</h1>
+        <p class="subtitle">Your personal music companion for iPhone and Apple Watch</p>
+        
+        <p>A comprehensive music player solution that lets you import audio files on your iPhone and transfer them wirelessly to your Apple Watch for offline playback. Perfect for workouts, running, or any time you want to leave your phone behind!</p>
+
+        <div class="features">
+            <div class="feature">
+                <h3>📁 Easy Import</h3>
+                <p>Import audio files from iOS Files app</p>
+            </div>
+            <div class="feature">
+                <h3>⌚ Wireless Transfer</h3>
+                <p>Send music to your Apple Watch</p>
+            </div>
+            <div class="feature">
+                <h3>🎧 Offline Playback</h3>
+                <p>Play music without your iPhone</p>
+            </div>
+            <div class="feature">
+                <h3>🔊 Full Controls</h3>
+                <p>Complete playback controls on Watch</p>
+            </div>
+        </div>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>📱 iPhone companion app built with Flutter</li>
+            <li>⌚ Native Apple Watch app with SwiftUI</li>
+            <li>📚 Manage your music library easily</li>
+            <li>⏯️ Full playback controls</li>
+            <li>🔊 Volume control</li>
+            <li>🎧 Background audio support</li>
+            <li>📊 Track storage and sync status</li>
+        </ul>
+
+        <div class="links">
+            <a href="support.html" class="btn">Support</a>
+            <a href="privacy.html" class="btn">Privacy Policy</a>
+        </div>
+    </div>
+</body>
+</html>
