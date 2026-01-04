@@ -28,49 +28,69 @@
         }
         h1 {
             color: #1a73e8;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             font-size: 2.5em;
+            font-weight: 700;
         }
         h2 {
             color: #0d652d;
-            margin-top: 30px;
-            margin-bottom: 15px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.6em;
+            font-weight: 600;
         }
         h3 {
             color: #1a73e8;
-            margin-top: 20px;
-            margin-bottom: 10px;
+            margin-top: 0;
+            margin-bottom: 12px;
+            font-size: 1.15em;
+            font-weight: 600;
         }
         p, li {
             margin-bottom: 10px;
+            line-height: 1.8;
+            color: #333;
+        }
+        ol {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        ol li {
+            margin-bottom: 15px;
+            line-height: 1.8;
         }
         .back-link {
             display: inline-block;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             color: #1a73e8;
             text-decoration: none;
             font-weight: 600;
+            transition: all 0.3s ease;
         }
         .back-link:hover {
             color: #0d652d;
-            text-decoration: underline;
+            transform: translateX(-4px);
         }
         .contact-box {
-            background: #f7f9fc;
-            padding: 20px;
-            border-radius: 8px;
+            background: linear-gradient(135deg, #f7f9fc 0%, #e8f0fe 100%);
+            padding: 24px;
+            border-radius: 10px;
             margin-top: 30px;
-            border-left: 3px solid #0d652d;
+            border-left: 4px solid #0d652d;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
         }
         .faq-item {
-            background: #f7f9fc;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 15px;
-            border-left: 3px solid #1a73e8;
+            background: #ffffff;
+            padding: 24px;
+            border-radius: 10px;
+            margin-bottom: 16px;
+            border-left: 4px solid #1a73e8;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
         }
-        .faq-item h3 {
-            margin-top: 0;
+        .faq-item:hover {
+            box-shadow: 0 4px 16px rgba(26, 115, 232, 0.15);
+            transform: translateX(4px);
         }
         code {
             background: #e8f0fe;
@@ -86,15 +106,14 @@
         <a href="index.html" class="back-link">← Back to Home</a>
         
         <h1>🛟 Support</h1>
-        <p>Need help with Music Player App? Find answers to common questions and learn how to get in touch.</p>
+        <p>Need help with PacePlay? Find answers to common questions and learn how to get in touch.</p>
 
         <h2>Getting Started</h2>
         <ol>
-            <li><strong>Install the iPhone App:</strong> Download and install the companion app on your iPhone</li>
-            <li><strong>Install the Watch App:</strong> The Watch app will automatically install on your paired Apple Watch</li>
-            <li><strong>Import Music:</strong> Use the iPhone app to import audio files from the Files app</li>
-            <li><strong>Transfer to Watch:</strong> Select tracks and transfer them to your Apple Watch</li>
-            <li><strong>Play Offline:</strong> Open the Watch app and enjoy your music without your phone!</li>
+            <li><strong>Install the Apps:</strong> Download PacePlay on your iPhone. The Watch app installs automatically on your paired Apple Watch</li>
+            <li><strong>Import Music:</strong> Use the iPhone app to import your audio files</li>
+            <li><strong>Transfer to Watch:</strong> Select your favorite tracks and send them to your Watch</li>
+            <li><strong>Enjoy Offline:</strong> Open the Watch app and play your music anywhere!</li>
         </ol>
 
         <h2>Frequently Asked Questions</h2>
@@ -106,71 +125,56 @@
 
         <div class="faq-item">
             <h3>How do I transfer music to my Apple Watch?</h3>
-            <p>In the iPhone app, select the tracks you want to transfer and tap "Send to Watch". Make sure your Watch is nearby and connected. The transfer happens wirelessly over Bluetooth.</p>
+            <p>In the iPhone app, select the songs you want and tap "Send to Watch". Make sure your Watch is nearby and connected.</p>
         </div>
 
         <div class="faq-item">
-            <h3>Can I play music on my Watch without my iPhone?</h3>
-            <p>Yes! Once music is transferred to your Watch, you can play it completely offline without your iPhone nearby. Perfect for workouts and runs.</p>
+            <h3>Can I play music without my iPhone?</h3>
+            <p>Absolutely! Once your music is on your Watch, you can listen anywhere without your iPhone. Perfect for workouts and outdoor activities.</p>
         </div>
 
         <div class="faq-item">
-            <h3>What audio formats are supported?</h3>
-            <p>The app supports common audio formats including MP3, M4A, AAC, and WAV files.</p>
+            <h3>What audio files can I use?</h3>
+            <p>PacePlay supports all common audio formats including MP3, M4A, AAC, and WAV files.</p>
         </div>
 
         <div class="faq-item">
-            <h3>How much storage does the Watch app use?</h3>
-            <p>Storage usage depends on how many tracks you transfer. The app shows available storage on both iPhone and Watch. A typical 3-4 minute song in MP3 format uses about 3-5 MB.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>Music not playing on my Watch?</h3>
-            <p>Try these steps:</p>
+            <h3>Music not playing?</h3>
+            <p>Try these quick fixes:</p>
             <ul>
-                <li>Ensure tracks have been fully transferred to the Watch</li>
-                <li>Check that your Watch is not in Theater Mode or Do Not Disturb</li>
-                <li>Make sure Bluetooth audio is connected (AirPods or other Bluetooth headphones)</li>
+                <li>Make sure your songs finished transferring</li>
+                <li>Connect your Bluetooth headphones</li>
+                <li>Check that Do Not Disturb is off</li>
                 <li>Restart the Watch app</li>
-                <li>If issues persist, try re-transferring the tracks</li>
             </ul>
         </div>
 
         <div class="faq-item">
-            <h3>Transfer is slow or failing?</h3>
-            <p>Wireless transfers can take time depending on file size. To improve transfer speed:</p>
+            <h3>Transfer taking too long?</h3>
+            <p>To speed up transfers:</p>
             <ul>
                 <li>Keep your iPhone and Watch close together</li>
-                <li>Ensure both devices are charged (transfers pause on low battery)</li>
-                <li>Keep both apps in the foreground during transfer</li>
-                <li>Transfer smaller batches of songs at a time</li>
+                <li>Make sure both devices are charged</li>
+                <li>Try transferring fewer songs at once</li>
             </ul>
         </div>
 
         <h2>System Requirements</h2>
         <ul>
-            <li><strong>iPhone:</strong> iOS 14.0 or later</li>
-            <li><strong>Apple Watch:</strong> watchOS 7.0 or later</li>
-            <li><strong>Bluetooth:</strong> Required for transferring music</li>
-        </ul>
-
-        <h2>Known Issues</h2>
-        <ul>
-            <li>Large file transfers (>50MB) may take several minutes</li>
-            <li>Background transfers may pause if apps are closed</li>
+            <li>iPhone with iOS 14.0 or later</li>
+            <li>Apple Watch with watchOS 7.0 or later</li>
         </ul>
 
         <h2>Need More Help?</h2>
         <div class="contact-box">
             <h3>Contact Support</h3>
-            <p>If you can't find an answer to your question, please reach out via email:</p>
-            <p><strong>Email:</strong> <a href="mailto:joelle.mahfoud@lau.edu">joelle.mahfoud@lau.edu</a></p>
-            <p>When reporting an issue, please include:</p>
-            <ul>
-                <li>Your iPhone and Watch models</li>
-                <li>iOS and watchOS versions</li>
-                <li>Steps to reproduce the issue</li>
-                <li>Any error messages you see</li>
+            <p>Can't find what you're looking for? We're here to help!</p>
+            <p><strong>Email:</strong> <a href="mailto:joelle.mahfoud@lau.edu" style="color: #1a73e8; text-decoration: none;">joelle.mahfoud@lau.edu</a></p>
+            <p style="margin-top: 20px;">When contacting support, please include:</p>
+            <ul style="margin-top: 10px;">
+                <li>Your device models (iPhone and Watch)</li>
+                <li>What you were trying to do</li>
+                <li>What happened instead</li>
             </ul>
         </div>
     </div>

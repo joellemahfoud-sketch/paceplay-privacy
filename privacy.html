@@ -28,13 +28,16 @@
         }
         h1 {
             color: #1a73e8;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             font-size: 2.5em;
+            font-weight: 700;
         }
         h2 {
             color: #0d652d;
-            margin-top: 30px;
-            margin-bottom: 15px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.6em;
+            font-weight: 600;
         }
         h3 {
             color: #1a73e8;
@@ -43,28 +46,33 @@
         }
         p, li {
             margin-bottom: 10px;
+            line-height: 1.8;
+            color: #333;
         }
         .back-link {
             display: inline-block;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             color: #1a73e8;
             text-decoration: none;
             font-weight: 600;
+            transition: all 0.3s ease;
         }
         .back-link:hover {
             color: #0d652d;
-            text-decoration: underline;
+            transform: translateX(-4px);
         }
         .last-updated {
             color: #666;
             font-style: italic;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
         .highlight-box {
-            background: #e8f0fe;
+            background: linear-gradient(135deg, #e8f0fe 0%, #f0f7ff 100%);
             border-left: 4px solid #1a73e8;
-            padding: 15px;
-            margin: 20px 0;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
         }
         ul {
             margin-left: 20px;
@@ -79,91 +87,72 @@
         <p class="last-updated">Last Updated: January 4, 2026</p>
 
         <div class="highlight-box">
-            <strong>TL;DR:</strong> Music Player App respects your privacy. We don't collect, store, or transmit any personal data. Your music stays on your devices.
+            <strong>Privacy First:</strong> PacePlay respects your privacy completely. We don't collect, store, or transmit any personal data. Your music stays on your devices, period.
         </div>
 
-        <h2>Introduction</h2>
-        <p>This Privacy Policy explains how Music Player App ("we", "our", or "the app") handles your information. We are committed to protecting your privacy and being transparent about our practices.</p>
+        <h2>Our Commitment</h2>
+        <p>PacePlay is designed with your privacy as the top priority. We believe your music and personal data should stay yours, always.</p>
 
-        <h2>Information We Don't Collect</h2>
-        <p>Music Player App is designed with privacy as a core principle. We do not collect, store, transmit, or share any of the following:</p>
+        <h2>What We Don't Collect</h2>
+        <p>We don't collect ANY data. Specifically, we never access:</p>
         <ul>
-            <li>Personal information (name, email, phone number, etc.)</li>
+            <li>Personal information</li>
             <li>Location data</li>
-            <li>Usage statistics or analytics</li>
-            <li>Device identifiers</li>
+            <li>Usage patterns</li>
+            <li>Device information</li>
             <li>Music files or metadata</li>
-            <li>Listening habits or preferences</li>
-            <li>Any other personal or identifiable information</li>
+            <li>Listening history</li>
         </ul>
 
-        <h2>How the App Works</h2>
-        <p>Music Player App operates entirely on your local devices:</p>
+        <h2>How It Works</h2>
+        <p>PacePlay works entirely on your devices:</p>
         <ul>
-            <li><strong>Local Storage:</strong> All music files and app data are stored locally on your iPhone and Apple Watch</li>
-            <li><strong>Device-to-Device Transfer:</strong> Music transfers between your iPhone and Watch happen directly over Bluetooth using Apple's WatchConnectivity framework</li>
-            <li><strong>No Cloud Services:</strong> We do not use any cloud storage or remote servers</li>
-            <li><strong>No Third-Party Services:</strong> We do not integrate with any third-party analytics, advertising, or tracking services</li>
+            <li><strong>Local Storage:</strong> Your music stays on your iPhone and Watch</li>
+            <li><strong>Direct Transfer:</strong> Music moves directly between your devices</li>
+            <li><strong>No Internet Required:</strong> Works completely offline</li>
+            <li><strong>No Tracking:</strong> We never monitor what you listen to</li>
         </ul>
 
-        <h2>Permissions We Request</h2>
-        <p>The app requests the following iOS permissions to function properly:</p>
+        <h2>Permissions We Need</h2>
+        <p>PacePlay only requests permissions necessary for basic functionality:</p>
         <ul>
-            <li><strong>File Access:</strong> To import audio files from your device's Files app</li>
-            <li><strong>Media Library:</strong> Optional - to access your music library if you choose to import from it</li>
-            <li><strong>Background Audio:</strong> To continue playing music while the app is in the background</li>
+            <li><strong>File Access:</strong> To let you import your audio files</li>
+            <li><strong>Background Audio:</strong> To keep playing music when you switch apps</li>
         </ul>
-        <p>These permissions are used only for their stated purposes and do not involve any data collection or transmission.</p>
+        <p>These permissions are only used for their intended purpose - nothing more.</p>
 
-        <h2>Data Storage</h2>
-        <p>All data is stored locally on your devices:</p>
+        <h2>Your Data Security</h2>
         <ul>
-            <li><strong>iPhone:</strong> Music files and app data are stored in the app's sandboxed storage</li>
-            <li><strong>Apple Watch:</strong> Transferred music is stored in the Watch app's local storage</li>
-            <li><strong>Security:</strong> Data is protected by iOS and watchOS security features</li>
-            <li><strong>Deletion:</strong> All data is permanently deleted when you uninstall the app</li>
+            <li>All music stays on your devices</li>
+            <li>Protected by Apple's security features</li>
+            <li>Automatically deleted when you uninstall the app</li>
+            <li>Never transmitted to any servers</li>
         </ul>
 
-        <h2>Communication Between Devices</h2>
-        <p>Music transfer between your iPhone and Apple Watch uses Apple's WatchConnectivity framework:</p>
+        <h2>Third Parties</h2>
+        <p>We don't work with any third parties. PacePlay has:</p>
         <ul>
-            <li>Transfer happens directly between your paired devices</li>
-            <li>Data is encrypted by the operating system</li>
-            <li>No data passes through any external servers</li>
-            <li>Transfer only occurs when you explicitly initiate it</li>
-        </ul>
-
-        <h2>Third-Party Access</h2>
-        <p>We do not share any information with third parties because we don't collect any information to share. The app:</p>
-        <ul>
-            <li>Does not contain advertisements</li>
-            <li>Does not use analytics services</li>
-            <li>Does not integrate with social media</li>
-            <li>Does not connect to external servers</li>
+            <li>No advertisements</li>
+            <li>No analytics tracking</li>
+            <li>No social media integration</li>
+            <li>No external servers</li>
         </ul>
 
         <h2>Children's Privacy</h2>
-        <p>Music Player App is safe for users of all ages. Since we don't collect any personal information, there are no additional privacy concerns for children under 13.</p>
+        <p>PacePlay is safe for all ages. Since we don't collect any data, there are no privacy concerns for anyone, including children.</p>
 
         <h2>Changes to This Policy</h2>
-        <p>Since we don't collect any personal data, there is no data to:</p>
-        <ul>
-            <li>Request access to</li>
-            <li>Request deletion of</li>
-            <li>Request correction of</li>
-            <li>Port to another service</li>
-        </ul>
-        <p>All your data stays on your devices and is under your complete control.</p>
+        <p>If we update this policy, we'll post the changes here with a new date. Since we don't collect data, any changes will be minimal.</p>
 
-        <h2>Contact Us</h2>
-        <p>If you have any questions about this Privacy Policy, please contact us via email:</p>
-        <p><strong>Email:</strong> <a href="mailto:joelle.mahfoud@lau.edu">joelle.mahfoud@lau.edu</a></p>
+        <h2>Your Rights</h2>
+        <p>You have complete control over your data because it never leaves your devices. You can delete everything simply by uninstalling the app.</p>
 
-        <h2>Governing Law</h2>
-        <p>This Privacy Policy is governed by applicable data protection laws and regulations.</p>
+        <h2>Questions?</h2>
+        <p>If you have questions about this Privacy Policy, reach out to us:</p>
+        <p><strong>Email:</strong> <a href="mailto:joelle.mahfoud@lau.edu" style="color: #1a73e8; text-decoration: none;">joelle.mahfoud@lau.edu</a></p>
 
-        <div class="highlight-box">
-            <strong>Summary:</strong> Music Player App is a privacy-first application. Your music and data never leave your devices. We don't collect, analyze, or share any information. Your privacy is completely protected.
+        <div class="highlight-box" style="margin-top: 40px;">
+            <strong>Bottom Line:</strong> PacePlay is completely private. Your music never leaves your devices. We don't collect, analyze, or share anything. Ever.
         </div>
     </div>
 </body>

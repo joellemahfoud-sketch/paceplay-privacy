@@ -28,16 +28,34 @@
         }
         h1 {
             color: #1a73e8;
-            margin-bottom: 20px;
-            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-size: 2.8em;
+            font-weight: 700;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 30px;
         }
         h2 {
             color: #0d652d;
-            margin-top: 30px;
-            margin-bottom: 15px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            font-weight: 600;
         }
         p {
             margin-bottom: 15px;
+            line-height: 1.8;
+            color: #333;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        ul li {
+            margin-bottom: 12px;
+            line-height: 1.8;
         }
         .links {
             display: flex;
@@ -47,17 +65,19 @@
         }
         .btn {
             display: inline-block;
-            padding: 12px 30px;
+            padding: 14px 32px;
             background: linear-gradient(135deg, #1a73e8 0%, #0d652d 100%);
             color: white;
             text-decoration: none;
             border-radius: 8px;
             transition: all 0.3s ease;
             font-weight: 600;
+            font-size: 1.05em;
+            box-shadow: 0 4px 12px rgba(26, 115, 232, 0.3);
         }
         .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(26, 115, 232, 0.4);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(26, 115, 232, 0.5);
             background: linear-gradient(135deg, #1557b0 0%, #0a4f23 100%);
         }
         .features {
@@ -67,56 +87,67 @@
             margin-top: 30px;
         }
         .feature {
-            padding: 20px;
-            background: #f7f9fc;
-            border-radius: 8px;
-            border-left: 3px solid #1a73e8;
+            padding: 24px;
+            background: #ffffff;
+            border-radius: 10px;
+            border-left: 4px solid #1a73e8;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        .feature:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 20px rgba(26, 115, 232, 0.2);
         }
         .feature h3 {
             color: #0d652d;
             margin-bottom: 10px;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        .feature p {
+            color: #666;
+            margin: 0;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🎵 Music Player App</h1>
-        <p class="subtitle">Your personal music companion for iPhone and Apple Watch</p>
+        <h1>🎵 PacePlay</h1>
+        <p class="subtitle">Your Personal Music Companion</p>
         
-        <p>A comprehensive music player solution that lets you import audio files on your iPhone and transfer them wirelessly to your Apple Watch for offline playback. Perfect for workouts, running, or any time you want to leave your phone behind!</p>
+        <p>Experience the freedom of taking your favorite music anywhere. PacePlay lets you import your audio files and enjoy them on your Apple Watch, completely offline. Perfect for workouts, runs, or any activity where you want to leave your phone behind.</p>
 
         <div class="features">
             <div class="feature">
                 <h3>📁 Easy Import</h3>
-                <p>Import audio files from iOS Files app</p>
+                <p>Import your favorite audio files with a few taps</p>
             </div>
             <div class="feature">
-                <h3>⌚ Wireless Transfer</h3>
-                <p>Send music to your Apple Watch</p>
+                <h3>⌚ Wireless Sync</h3>
+                <p>Seamlessly transfer music to your Watch</p>
             </div>
             <div class="feature">
-                <h3>🎧 Offline Playback</h3>
-                <p>Play music without your iPhone</p>
+                <h3>🎧 True Freedom</h3>
+                <p>Listen anywhere without your iPhone</p>
             </div>
             <div class="feature">
-                <h3>🔊 Full Controls</h3>
-                <p>Complete playback controls on Watch</p>
+                <h3>🔊 Full Control</h3>
+                <p>Complete playback controls on your wrist</p>
             </div>
         </div>
 
-        <h2>Key Features</h2>
+        <h2>Why Choose PacePlay?</h2>
         <ul>
-            <li>📱 iPhone companion app built with Flutter</li>
-            <li>⌚ Native Apple Watch app with SwiftUI</li>
-            <li>📚 Manage your music library easily</li>
-            <li>⏯️ Full playback controls</li>
-            <li>🔊 Volume control</li>
-            <li>🎧 Background audio support</li>
-            <li>📊 Track storage and sync status</li>
+            <li>🎵 Play your music collection offline on Apple Watch</li>
+            <li>⚡ Quick and easy music transfers</li>
+            <li>🎯 Simple, intuitive interface</li>
+            <li>🔋 Optimized for battery life</li>
+            <li>🔒 Your music stays on your devices - completely private</li>
+            <li>💪 Perfect for workouts, running, and outdoor activities</li>
         </ul>
 
         <div class="links">
-            <a href="support.html" class="btn">Support</a>
+            <a href="support.html" class="btn">Get Support</a>
             <a href="privacy.html" class="btn">Privacy Policy</a>
         </div>
     </div>
